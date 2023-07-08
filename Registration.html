@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!-- navbar start -->
+       <nav>
+        <div class="nav">
+          <div>
+            <a class="logo" href="/"> Job Seeker</a>
+          </div>
+          <div class="nav-link">
+            <a href="/Home.html">Home</a>
+            <a href="/job_search.html"> Job Search</a>
+            <a href="/Registration.html">Registration</a>
+          </div>
+        </div>
+  
+      </nav>
+      <!-- navbar end -->
+      <div class="registration-container">
+        <h2>Job Portal Registration</h2>
+        <form>
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <label for="role">Select Role:</label>
+          <select id="role" name="role">
+            <option value="employee">Employee</option>
+            <option value="student">Find Job</option>
+          </select>
+          <button type="submit" class="hire-btn">Register</button>
+           <p>Already have an account please <a href="Login.html">Login</a></p>
+        </form>
+      </div>
+</body>
+</html>
